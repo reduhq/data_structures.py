@@ -20,7 +20,7 @@
 
 ## LIST METHODS
 ```python
-# LIST  Creates a list
+# LIST Creates a list
 list(["hello", True, 25])
 my_list = ["hello", True, 25]
 ```
@@ -40,7 +40,7 @@ my_list = ["hello", True, 25]
 
 ## DICT METHODS
 ```python
-# DICT  Creates a dictionary
+# DICT Creates a dictionary
 dict(name="Liam", age=25, city="Madrid")
 my_dict = {
 	"name": "Liam",
@@ -58,3 +58,19 @@ my_dict = {
 [POP](https://www.w3schools.com/python/ref_dictionary_pop.asp) | The `pop()` method removes the specified item from the dictionary | my_dict.pop("name")
 [ITEMS](https://www.w3schools.com/python/ref_dictionary_items.asp) | the `items()` method is used to return the list with all dictionary keys with values | my_dict.items()
 
+## SET METHODS
+```python
+# SET creates a set
+set(["Luis", "Jilliam"])
+my_set = {"Luis", "Jilliam"}
+
+# Creating an inmutable set
+frozenset(["Luis", "Jilliam"])
+```
+>NOTE: To see more set methods, visit [Python Set Methods](https://www.w3schools.com/python/python_ref_set.asp)
+
+|Method| Description | example
+| ------------------ |:-------------: |:-------------:|
+[ISSUBSET](https://www.w3schools.com/python/ref_set_issubset.asp) | Return True if all items in set x are present in set y | my_set_x.issubset(my_set_y)
+[ISSUPERSET](https://www.w3schools.com/python/ref_set_issuperset.asp) | Return True if all items set y are present in set x | my_set_x.issuperset(my_set_y)
+[ISDISJOINT](https://www.w3schools.com/python/ref_set_isdisjoint.asp) | Return True if no items in set x is present in set y | my_set_x.isdisjoint(my_set_y)
