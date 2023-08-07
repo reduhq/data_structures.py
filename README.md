@@ -1,3 +1,44 @@
+
+# CONTENT
+- [DATA STRUCTURES](#data-structures)
+	- Lists
+	- Tuples
+	- Dictionaries
+	- Sets
+- [METHODS](#methods)
+	- [String Methods](#string-methods)
+	- [List Methods](#list-methods)
+	- [Dictionary Methods](#dict-methods)
+	- [Set Methods](#set-methods)
+
+# DATA STRUCTURES 
+
+1. Lists:
+   - Ordered sequence of elements.
+   - Mutable: You can add, remove, or modify elements.
+   - Defined using square brackets [ ].
+   - Allows duplicates.
+
+2. Tuples:
+   - Ordered sequence of elements.
+   - Immutable: Once created, they cannot be modified.
+   - Defined using parentheses ( ).
+   - Allows duplicates.
+
+3. Dictionaries:
+   - Associative data structure that stores key-value pairs.
+   - Mutable: You can add, remove, or modify elements.
+   - Defined using curly braces { }.
+   - Does not allow duplicate keys, but values can be repeated.
+
+4. Sets:
+   - Unordered collection of unique elements.
+   - Mutable: You can add or remove elements.
+   - Defined using curly braces { } or the set() function.
+   - Does not allow duplicate elements.
+
+# METHODS 
+
 ## STRING METHODS
 >NOTE: To see more list methods, visit [Python String Methods](https://www.w3schools.com/python/python_ref_string.asp)
 
